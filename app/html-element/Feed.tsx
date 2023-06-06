@@ -4,7 +4,7 @@ import { ExclamationCircleIcon } from '@heroicons/react/24/solid'
 
 function Feed() {
   return (
-    <div className="col-span-4 mb-8 lg:col-span-4 md:col-span-4 sm:col-span-5 col-span-5  lg:p-1 md:p-2 sm:p-4 p-4 ">
+    <div className=" mb-8 lg:col-span-4 md:col-span-4 sm:col-span-5 col-span-5  lg:p-1 md:p-2 sm:p-4 p-4 ">
       <section>
       <h1 className="font-bold text-4xl mt-8">HTML Elements</h1>
       <p className='mt-4'>HTML элемент гэж эхлэлийн tag болон төгсгөлийн tag-н хооронд байрлах бүх контентыг хэлнэ.</p>

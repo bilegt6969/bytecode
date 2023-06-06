@@ -3,7 +3,7 @@ import React from 'react';
 
 function Feed() {
   return (
-    <div className="col-span-4 mb-[3rem] lg:col-span-4 md:col-span-4 sm:col-span-5 col-span-5  lg:p-1 md:p-2 sm:p-4 p-4 ">
+    <div className=" mb-[3rem] lg:col-span-4 md:col-span-4 sm:col-span-5 col-span-5  lg:p-1 md:p-2 sm:p-4 p-4 ">
       <section>
       <h1 className="font-bold text-4xl mt-8">HTML Headings</h1>
       <p>HTML нь гарчгийг &lt;<span className='text-red-400 bg-gray-700' dangerouslySetInnerHTML={{ __html: "/h1" }} />&gt; ээс &lt;<span className='text-red-400 bg-gray-700' dangerouslySetInnerHTML={{ __html: "/h6" }} />&gt; зургаан tag-д тодорохойлдог бөгөөд &lt;<span className='text-red-400 bg-gray-700' dangerouslySetInnerHTML={{ __html: "/h1" }} />&gt;-г хамгийн чухал ач холбогдолтой гэж үздэг бөгөөд хамгийн том нь бадаг бол &lt;<span className='text-red-400 bg-gray-700' dangerouslySetInnerHTML={{ __html: "/h6" }} />&gt;-г хамгийн бага ач холбогдолтой буюу хамгийн жижиг гарчиг гэж үздэг.</p>
