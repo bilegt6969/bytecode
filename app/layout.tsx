@@ -2,6 +2,8 @@
 import './globals.css'
 import Navbar from './Navbar'
 import Bnav from './bottomnav'
+import { useRouter } from 'next/router';
+
 
 
 

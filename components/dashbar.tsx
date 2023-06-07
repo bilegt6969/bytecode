@@ -1,5 +1,9 @@
 import React from 'react';
 import { Roboto } from 'next/font/google';
+import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
+import { useState } from 'react'
+
+ 
 
 const roboto = Roboto({
   weight: '400',
@@ -8,8 +12,21 @@ const roboto = Roboto({
  
 
 function Dashbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen1(!isOpen1);
+  };
+
 return (
-  <div className=" col-span-1 mt-8 hidden sm:hidden md:flex lg:flex ">
+  
+  <div className="sticky z-[-1] top-0 overflow-y-scroll ">
+    
+    
+
+    <div className="col-span-1 mt-8 hidden sm:hidden md:flex lg:flex  ">
   <div className={roboto.className}>
     <h1 className="text-lg font-bold mb-4 text-white">HTML tutorial</h1>
     <div className="pl-4 text-[#9ba1a6] cursor-pointer flex flex-col space-y-3">
@@ -44,9 +61,11 @@ return (
       <a href='../html-' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Input Type</a>
       <a href='../html-' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Submit Button</a>
     </div>
-    
-  </div>
+    </div>
+
 </div>
+</div>
+
 
 
 );

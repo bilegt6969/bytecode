@@ -3,6 +3,8 @@ import Head from 'next/head'
 import React from 'react'
 import Navbar from '@/app/Navbar'
 import Home from '../app/Home'
+import { useRouter } from 'next/router';
+
 
 function page() {
   return (
