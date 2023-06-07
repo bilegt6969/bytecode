@@ -4,7 +4,6 @@ import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import { useState } from 'react'
 
 function Bottomnav() {
-  const [isOpen, setIsOpen] = useState(false);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
   const [isOpen1, setIsOpen1] = useState(false);
 
