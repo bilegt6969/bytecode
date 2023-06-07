@@ -1,7 +1,7 @@
 import React from 'react'
 import Feed from './Feed'
 import Sidebar from '../../components/dashbar'
-import Bnav from '../bottomnav'
+import Bnav from '../Bottomnav'
 
 function page() {
   return (

@@ -1,7 +1,8 @@
+'use client'
 import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
 import React, { useState } from 'react'
 
-function bottomnav() {
+function Bottomnav() {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
   const [isOpen1, setIsOpen1] = useState(false);
@@ -223,4 +224,4 @@ function bottomnav() {
   )
 }
 
-export default bottomnav
+export default Bottomnav

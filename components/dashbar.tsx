@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { Roboto } from 'next/font/google';
 import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
