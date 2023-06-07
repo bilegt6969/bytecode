@@ -6,8 +6,9 @@ import Bnav from '../Bottomnav'
 function page() {
   return (
     <div>
+                <Bnav/>
+
         <main className='grid grid-cols-5 gap-x-4'>
-          <Bnav/>
         <Sidebar/>
         <Feed/>
         </main>
