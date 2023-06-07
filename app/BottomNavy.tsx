@@ -17,15 +17,15 @@ function Bottomnav() {
   };
 
   return (
-    <div className='z-[1] sticky top-[66px] w-full'>
-      <div className='z-[-1] sticky top-[66px] w-full'>
+    <div className='z-[2] sticky top-[66px] w-full border-b border-[#454444]'>
+      <div className='z-[2] sticky top-[66px] w-full'>
       <div className="md:hidden">
       <div className="">
-      <div className="backdrop-blur-sm backdrop-saturate-200 w-full bg-black/60">
+      <div className="p-2 backdrop-blur-sm backdrop-saturate-200 w-full bg-black/60">
         <button
           onClick={toggleMenu}
           type="button"
-          className="p-2 text-white  hover:text-white focus:outline-none"
+          className="p-1 text-white  hover:text-white focus:outline-none"
         >
           {isOpen1 ? (
             <div className='flex items-center gap-1'>

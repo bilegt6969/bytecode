@@ -37,14 +37,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="z-[90000] sticky border-b border-[#454444] top-0">
-      <div className="backdrop-blur-sm bg-black/90">
+    <div className="z-[4000] sticky border-b border-[#454444] top-0">
+      <div className="backdrop-blur-xl bg-black/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#454444]">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Fragment>
               <a href="./">
-                <Image src={Logo} alt="Logo" className="w-[130px] h-auto" />
+                <Image src={Logo} alt="Logo" className="w-[100px] h-auto" />
               </a>
             </Fragment>
           </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 Нүүр
               </a>
               <a
-                href="#"
+                href="/aboutus"
                 className="text-gray-200 hover:text-gray-400 transition whitespace-nowrap px-3 py-2 rounded-md text-sm font-medium"
               >
                 Бидний тухай
@@ -173,7 +173,7 @@ const Navbar = () => {
               Нүүр
             </a>
             <a
-              href="#"
+              href="/about-us"
               className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-3xl font-medium"
             >
               Бидний тухай
