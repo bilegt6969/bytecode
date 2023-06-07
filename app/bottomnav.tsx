@@ -12,9 +12,6 @@ function Bottomnav() {
     setIsOpen1(!isOpen1);
   };
 
-  const toggleNavbar = () => {
-    setIsOpen(!isOpen);
-  };
 
   const toggleSubmenu = () => {
     setIsSubmenuOpen(!isSubmenuOpen);
