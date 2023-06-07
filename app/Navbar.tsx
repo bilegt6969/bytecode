@@ -161,10 +161,10 @@ const Navbar = () => {
         initial={{ height: 0 }}
         animate={{ height: isOpen ? '100vh' : 0 }}
         transition={{ duration: 0 }}
-        className={`${isOpen ? 'block' : 'hidden'} fixed sm:flex md:flex lg:flex top-0 left-0 w-full bg-gray-500 shadow-lg`}
+        className={`${isOpen ? 'block' : 'hidden'} fixed sm:flex md:flex lg:flex top-0 left-0 w-full bg-[#161617] shadow-lg`}
       >
         {isOpen && (
-          <div className="px-2 pt-[10rem] pb-3 space-y-1">
+          <div className="px-9 pt-[10rem] pb-3 space-y-1">
             <a
               href="./"
               className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-3xl font-medium"
@@ -263,7 +263,7 @@ const Navbar = () => {
       </div>
 
       {isOpen1 && (
-        <div className=" top-0 overflow-hidden md:overflow-auto  left-0 w-screen h-screen bg-gray-900 bg-opacity-50 backdrop-blur-md ">
+        <div className=" top-0 overflow-hidden md:overflow-auto overflow-y-scroll left-0 w-screen h-screen bg-gray-900 bg-opacity-50 backdrop-blur-md ">
           <div className="p-4 text-gray-100">
             <a
                 href="../html-basic"
