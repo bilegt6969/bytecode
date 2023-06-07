@@ -14,6 +14,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <title>byte.code</title>
+
       <body className='bg-black text-white'>
         <Navbar/>
         
