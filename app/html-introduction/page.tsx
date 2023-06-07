@@ -4,11 +4,13 @@ import React from 'react'
 import Feed from './Feed'
 import Sidebar from '../../components/dashbar'
 import Bnav from '../BottomNav'
+import Bonav from '../BottomNavy'
+
 
 function page() {
   return (
     <div>
-                <Bnav/>
+                <Bonav/>
         <main className='grid grid-cols-5 gap-x-4'>
         <Sidebar/>
         <Feed/>
