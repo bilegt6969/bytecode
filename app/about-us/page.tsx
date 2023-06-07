@@ -17,7 +17,7 @@ function Page() {
         <h2 className="text-3xl font-bold mb-4"><span className='font-mono'>1.2</span> Our Aim</h2>
         <p className="max-w-[30rem] text-gray-400">We are dedicated to providing exceptional coding knowledge to everyone, without any cost. Our goal is to remove barriers and ensure accessibility to coding education. Join us today and explore a world of coding without financial constraints.</p>
       </section>
-      <section className="mt-9">
+    <section className="mt-9">
         <h2 className="text-3xl font-bold mb-4"><span className='font-mono'>1.3</span> Our Aim</h2>
         <p className="max-w-[30rem] text-gray-400">We are dedicated to providing exceptional coding knowledge to everyone, without any cost. Our goal is to remove barriers and ensure accessibility to coding education. Join us today and explore a world of coding without financial constraints.</p>
       </section>

@@ -57,7 +57,7 @@ const Navbar = () => {
                 Нүүр
               </a>
               <a
-                href="/aboutus"
+                href="/about-us"
                 className="text-gray-200 hover:text-gray-400 transition whitespace-nowrap px-3 py-2 rounded-md text-sm font-medium"
               >
                 Бидний тухай
