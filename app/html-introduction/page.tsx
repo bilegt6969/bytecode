@@ -3,7 +3,7 @@ import Navbar from '../Navbar'
 import React from 'react'
 import Feed from './Feed'
 import Sidebar from '../../components/dashbar'
-import Bnav from '../Bottomnav'
+import Bnav from '../BottomNav'
 
 function page() {
   return (
