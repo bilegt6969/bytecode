@@ -11,7 +11,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
   const [isOpen1, setIsOpen1] = useState(false);
-  const shouldHideDiv = window.location.href === 'http://localhost:3000/';
 
 
   const toggleMenu = () => {
@@ -236,7 +235,7 @@ const Navbar = () => {
           </div>
         )}
       </motion.div>
-      <div className={` ${isOpen || shouldHideDiv ? 'hidden' : 'block'} `}>
+      <div className={` ${isOpen ? 'hidden' : 'block'} `}>
       <div>
       <div className='sticky top-[66px] w-full'>
       <div className="md:hidden">
