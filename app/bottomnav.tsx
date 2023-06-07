@@ -1,6 +1,7 @@
 'use client'
+import React from 'react';
 import { ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/solid';
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function Bottomnav() {
   const [isOpen, setIsOpen] = useState(false);
