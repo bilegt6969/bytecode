@@ -36,7 +36,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="border-b border-[#454444] backdrop-blur-sm bg-black/90 sticky top-0">
+    <div className="border-b border-[#454444]  sticky top-0">
+      <div className="backdrop-blur-sm bg-black/90">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#454444]">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -235,12 +236,13 @@ const Navbar = () => {
           </div>
         )}
       </motion.div>
+      </div>
       <div className={` ${isOpen ? 'hidden' : 'block'} `}>
       <div>
       <div className='sticky top-[66px] w-full'>
       <div className="md:hidden">
       <div className="">
-      <div className="backdrop-blur-sm backdrop-saturate-200 w-full bg-black/40">
+      <div className="backdrop-blur-sm backdrop-saturate-200 w-full bg-black/60">
         <button
           onClick={toggleMenu}
           type="button"
