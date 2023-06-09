@@ -11,14 +11,22 @@ function Home() {
     <div className="text-white flex flex-col justify-center items-center">
       <header className="text-center mt-[0rem]" >
         <Image layout='fill' objectFit='cover' className='z-[-3] absolute rounded-[3rem] mt-[4rem]' src={bg} alt='bg'/>
-      <h2 className="lg:text-8xl md:text-8xl sm:text-6xl text-6xl font-bold font-sans lg:mt-[20rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem]  mb-4 bg-clip-text text-white">Shape your future with us</h2>
-      <h2 className="text-2xl font-sans mt-8  mb-4 bg-clip-text text-gray-200 max-w-[40rem] mx-auto">
+      <h2 className=" lg:max-w-none md:max-w-[40rem] sm:max-w-[40rem] lg:text-8xl md:text-8xl sm:text-6xl text-6xl font-bold font-sans lg:mt-[20rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem]  mb-4 bg-clip-text text-white">Shape your future with us</h2>
+      <h2 className="text-2xl font-sans mt-8  mb-4 bg-clip-text text-gray-200 lg:max-w-[40rem] md:max-w-[40rem] sm:max-w-[40rem] mx-auto">
 Learn coding and programming for free. Join our platform and unlock endless opportunities without any cost.</h2>
 
       </header>
+
+
+
+    
+
+
+      
+      
       <section className="lg:mt-[40rem] md:mt-[30rem] sm:mt-[28rem] mt-[25rem] z-[-10]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-[10rem]">
-            <h1 className="text-5xl text-left font-bold text-white mb-[6rem] font-sans">
+            <h1 className="text-5xl lg:text-left md:text-left sm:text-center text-center font-bold text-white mb-[6rem] font-sans">
               we&apos;re offering
             </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto items-center justify-center lg:grid-cols-3 gap-6 xl:gap-10">
@@ -51,7 +59,7 @@ Learn coding and programming for free. Join our platform and unlock endless oppo
             <div className="outline mx-auto outline-3 outline-offset-2 outline-[#f6f2d6] bg-pink-500 hover:scale-105 transform transition duration-300 ease-out w-auto h-[302px] rounded-xl max-w-[18rem] min-w-[15rem] pl-4 pt-9 text-[#212121]">
               <h1 className="font-bold text-2xl mb-4">C++</h1>
               <p className="font-bold font-sans">
-                Learn C++ — a versatile programming language that’s important for developing software, games, databases, and more.
+                Learn C++ — a versatile programming language that&apos;s important for developing software, games, databases, and more.
               </p>
             </div>
             <div className="outline mx-auto outline-3 outline-offset-2 outline-[#f6f2d6] bg-orange-500 hover:scale-105 transform transition duration-300 ease-out w-auto h-[302px] rounded-xl max-w-[18rem] min-w-[15rem] pl-4 pt-9 text-[#212121]">

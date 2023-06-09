@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Fragment>
               <a href="./">
-                <Image src={Logo} alt="Logo" className="w-[180px] h-auto mb-[1.4rem]" />
+                <Image src={Logo} alt="Logo" className="w-[180px] h-auto mt-[-8.3rem] mx-2" />
               </a>
             </Fragment>
           </div>

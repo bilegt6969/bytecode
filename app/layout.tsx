@@ -2,6 +2,7 @@
 import './globals.css'
 import Navbar from './Navbar'
 import { useRouter } from 'next/router';
+import Home from './Home';
 
 
 
@@ -21,7 +22,9 @@ export default function RootLayout({
         <Navbar/>
         
 
-        <main className='max-w-screen-xl mx-auto'>{children}</main>
+        <main className='max-w-screen-xl mx-auto'>
+          
+          {children}</main>
         </body>
     </html>
   )
