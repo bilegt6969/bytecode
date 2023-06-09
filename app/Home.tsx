@@ -19,7 +19,7 @@ Learn coding and programming for free. Join our platform and unlock endless oppo
       <section className="lg:mt-[40rem] md:mt-[30rem] sm:mt-[28rem] mt-[25rem] z-[-10]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-[10rem]">
             <h1 className="text-5xl text-left font-bold text-white mb-[6rem] font-sans">
-              we're offering
+              we&apos;re offering
             </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto items-center justify-center lg:grid-cols-3 gap-6 xl:gap-10">
             <div className="outline mx-auto outline-3 outline-offset-2 outline-[#f6f2d6] bg-yellow-500 hover:scale-105 transform transition duration-300 ease-out w-auto h-[302px] rounded-xl max-w-[18rem] min-w-[15rem] pl-4 pt-9 text-[#212121]">
