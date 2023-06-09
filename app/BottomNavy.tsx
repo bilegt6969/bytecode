@@ -17,7 +17,7 @@ function Bottomnav() {
   };
 
   return (
-    <div className='z-[2] sticky top-[66px] w-full border-b border-[#454444]'>
+    <div className='z-[2] sticky top-[65px] w-full border-b border-[#454444]'>
       <div className='z-[2] sticky top-[66px] w-full'>
       <div className="md:hidden">
       <div className="">

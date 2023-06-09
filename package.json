@@ -13,6 +13,8 @@
     "@heroicons/react": "^2.0.18",
     "@monaco-editor/react": "^4.5.1",
     "@nextui-org/react": "^1.0.0-beta.12",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.363",
     "@types/node": "20.1.4",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
@@ -30,6 +32,7 @@
     "react-select": "^5.7.3",
     "react-server-components": "^0.0.0",
     "tailwindcss": "3.3.2",
+    "three": "^0.153.0",
     "typescript": "5.0.4"
   }
 }

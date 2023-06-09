@@ -39,12 +39,12 @@ const Navbar = () => {
   return (
     <div className="z-[4000] sticky border-b border-[#454444] top-0">
       <div className="backdrop-blur-xl bg-black/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#454444]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Fragment>
               <a href="./">
-                <Image src={Logo} alt="Logo" className="w-[100px] h-auto" />
+                <Image src={Logo} alt="Logo" className="w-[180px] h-auto mb-[1.4rem]" />
               </a>
             </Fragment>
           </div>
