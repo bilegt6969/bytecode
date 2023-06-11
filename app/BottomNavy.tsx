@@ -42,7 +42,7 @@ function Bottomnav() {
       </div>
 
       {isOpen1 && (
-        <div className=" top-0 overflow-hidden md:overflow-auto overflow-y-scroll left-0 w-screen h-screen bg-gray-900 bg-opacity-50 backdrop-blur-md ">
+        <div className="mb-10 top-0 overflow-hidden md:overflow-auto overflow-y-scroll left-0 w-screen h-screen bg-gray-900 bg-opacity-50 backdrop-blur-md ">
           <div className="p-4 text-gray-100">
             <a
                 href="../html-basic"

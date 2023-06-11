@@ -25,8 +25,8 @@ return (
       <a href='../html-quotation' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Quotation </a>
       <a href='../html-comments' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Comments</a>
       <a href='../html-colors' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Colors</a>
-      <a href='../html-'className="hover:text-gray-100 transition duration-100 ease-in-out">HTML CSS</a>
-      <a href='../html-' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML anks</a>
+      <a href='../html-css'className="hover:text-gray-100 transition duration-100 ease-in-out">HTML CSS</a>
+      <a href='../html-links' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML links</a>
       <a href='../html-' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Images</a>
       <a href='../html-' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Tables</a>
       <a href='../html-' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Block</a>
