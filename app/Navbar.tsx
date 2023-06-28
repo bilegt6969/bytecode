@@ -161,7 +161,7 @@ const Navbar = () => {
       <motion.div
         initial={{ height: 0 }}
         animate={{ height: isOpen ? '100vh' : 0 }}
-        transition={{ duration: 0 }}
+        transition={{ duration: 0.1 }}
         className={`${isOpen ? 'block' : 'hidden'} fixed sm:flex md:flex lg:flex top-0 left-0 w-full bg-[#161617] shadow-lg`}
       >
         {isOpen && (

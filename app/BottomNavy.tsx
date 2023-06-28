@@ -105,43 +105,32 @@ function Bottomnav() {
                 HTML Colors
               </a>
               <a
-                href="../html-"
+                href="../html-css"
               className="block text-lg font-medium mb-4 hover:underline"
               >
                 HTML CSS
               </a>
               <a
-                href="../html-"
+                href="../html-anks"
               className="block text-lg font-medium mb-4 hover:underline"
               >
                 HTML anks
               </a>
               <a
-                href="../html-"
+                href="../html-images"
               className="block text-lg font-medium mb-4 hover:underline"
               >
                 HTML Images
               </a>
+
               <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Tables
-              </a>
-              <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Block
-              </a>
-              <a
-                href="../html-"
+                href="../html-class"
               className="block text-lg font-medium mb-4 hover:underline"
               >
                 HTML Class
               </a>
               <a
-                href="../html-"
+                href="../html-id"
               className="block text-lg font-medium mb-4 hover:underline"
               >
                 HTML id
