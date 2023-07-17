@@ -84,7 +84,7 @@ function Feed() {
 
 </p>
   <h1 className="font-bold text-4xl mt-8 mb-4">жишээ:</h1>
-  <p className='mb-4'>Хэрэглэгч товчлуур дээр дархад "zurwas" гэсэн нэртэй бүх классыг нууж болно.
+  <p className='mb-4'>Хэрэглэгч товчлуур дээр дархад &quot;zurwas&quot; гэсэн нэртэй бүх классыг нууж болно.
 </p>
       
 <iframe src="https://codesandbox.io/embed/cool-tree-97m922?fontsize=14&hidenavigation=1&theme=dark&editorsize=50"
