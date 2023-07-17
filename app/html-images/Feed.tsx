@@ -16,7 +16,7 @@ function Feed() {
       <p>HTML-д зургийг &lt;<span className='text-red-400 bg-gray-700' dangerouslySetInnerHTML={{ __html: "img"}} />&gt; tag-д тодорхойлдог. &lt;<span className='text-red-400 bg-gray-700' dangerouslySetInnerHTML={{ __html: "img" }} />&gt; tag-д хаалтын tag байдаггүй. Зургийн байршлыг <span className='text-pink-500'>src</span> атрибутад зааж өгнө.</p>
       <div className="container mx-auto py-8">
   <pre className="bg-white  p-4 rounded-lg">
-    <code className="text-blue-600">&lt;img</code> <code className="text-gray-700">src</code><code className="text-gray-700">=</code><code className="text-red-600">"url"</code><code className="text-blue-600">&gt;</code>
+    <code className="text-blue-600">&lt;img</code> <code className="text-gray-700">src</code><code className="text-gray-700">=</code><code className="text-red-600">&quot;url&quot;</code><code className="text-blue-600">&gt;</code>
   </pre>
 </div>
 

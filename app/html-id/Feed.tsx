@@ -60,7 +60,7 @@ function Feed() {
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
-   <p className='mt-4'>Жишээн дээр h1 нь "zurwas" болон "garchig" класст хаарч байгаа бол h2 нь зөвхөн "zurwas"класст хамаарч байгааг анзаарна уу.</p>
+   <p className='mt-4'>Жишээн дээр h1 нь &quot;zurwas&quot; болон &quot;garchig&quot; класст хаарч байгаа бол h2 нь зөвхөн &quot;zurwas&quot; класст хамаарч байгааг анзаарна уу.</p>
       
         
 

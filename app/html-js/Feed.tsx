@@ -27,7 +27,7 @@ function Feed() {
       
 
       <h1 className="font-bold text-4xl mt-8 mb-4">жишээ:</h1>
-      <p className='mb-4'>test гэсэн id-тай элементэд "Энэ бол JavaScript" текстийг бичиж үзье.</p>
+      <p className='mb-4'>test гэсэн id-тай элементэд &quot;Энэ бол JavaScript&quot; текстийг бичиж үзье.</p>
       <iframe src="https://codesandbox.io/embed/stoic-bash-r64wc2?fontsize=14&hidenavigation=1&theme=dark&editorsize=50"
   style={{ width: '100%', height: '500px', border: '0', borderRadius: '4px', overflow: 'hidden' }}
   title="stoic-bash-r64wc2"
