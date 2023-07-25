@@ -44,7 +44,7 @@ function Feed() {
         </div>
       </section>
       <section>
-      <h1 className="font-bold mt-8 mb-4 text-2xl">width, height</h1>
+      <h1 className="font-bold mt-8 mb-4 text-2xl">width,  height</h1>
       <p className='mb-4'>HTML-д зургийн өргөн болон өндрийг <span className='text-pink-500'>&lt;width&gt;</span>,<span className='text-pink-500'>&lt;height&gt;</span> атрибутад зааж өгдөг.</p>
       <iframe src="https://codesandbox.io/embed/throbbing-moon-h95j89?fontsize=14&hidenavigation=1&theme=dark&editorsize=50"
   style={{ width: '100%', height: '500px', border: '0', borderRadius: '4px', overflow: 'hidden' }}
