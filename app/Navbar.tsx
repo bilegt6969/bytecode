@@ -82,13 +82,13 @@ const Navbar = () => {
                       <Popover.Panel className="absolute z-10 w-48 p-2 mt-2 bg-white rounded-md shadow-lg outline outline-black ring-offset-1 outline-1">
                         <div className="flex flex-col space-y-2">
                           <a
-                            href="/html-introduction"
+                            href="/cources/html/html-introduction"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
-                            Html
+                            Htmsl
                           </a>
                           <a
-                            href="#"
+                            href="/cources/css/css-syntax"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
                             Css
@@ -190,7 +190,7 @@ const Navbar = () => {
             {isSubmenuOpen && (
               <div className="pl-6">
                 <a
-                  href="/html-introduction"
+                  href="/cources/html/html-introduction"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   Html

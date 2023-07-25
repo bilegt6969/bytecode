@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from './Navbar'
 import { useRouter } from 'next/router';
 import Home from './Home';
+import {Analytics} from '@vercel/analytics/react'
 
 
 
@@ -14,7 +15,7 @@ export default function RootLayout({
 })  {
   
 
-  return (
+  return (<>
     <html lang="en">
       <title>byte.code</title>
 
@@ -27,6 +28,8 @@ export default function RootLayout({
           {children}</main>
         </body>
     </html>
+    <Analytics />
+    </>
   )
 }
 
