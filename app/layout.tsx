@@ -25,10 +25,9 @@ export default function RootLayout({
 
         <main className='max-w-screen-xl mx-auto'>
           
-          {children}</main>
+          {children}</main>    <Analytics />
         </body>
     </html>
-    <Analytics />
     </>
   )
 }
