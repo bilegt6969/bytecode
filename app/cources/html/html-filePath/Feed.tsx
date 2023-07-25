@@ -18,19 +18,19 @@ function Feed() {
   </thead>
   <tbody>
     <tr>
-      <td className="border px-4 py-2">&lt;img src="zurag.jpg"&gt;</td>
+      <td className="border px-4 py-2">&lt;img src=&quot;zurag.jpg&quot;&gt;</td>
       <td className="border px-4 py-2">zurag.jpg файл болон файлыг дуудсан HTML хуудас нэг хавтсанд байна</td>
     </tr>
     <tr>
-      <td className="border px-4 py-2">&lt;img src="img/zurag.jpg"&gt;</td>
+      <td className="border px-4 py-2">&lt;img src=&quot;img/zurag.jpg&quot;&gt;</td>
       <td className="border px-4 py-2">HTML хуудас байрлаж буй хавтсанд байрлах img хавтсанд zurag.jpg файл байна</td>
     </tr>
     <tr>
-      <td className="border px-4 py-2">&lt;img src="/img/zurag.jpg"&gt;</td>
+      <td className="border px-4 py-2">&lt;img src=&quot;/img/zurag.jpg&quot;&gt;</td>
       <td className="border px-4 py-2">Вэб сайтын үндсэн хэсэн буюу index.html байрлаж буй хавтсанд байрлах img хавтсанд zurag.jpg файл байна</td>
     </tr>
     <tr>
-      <td className="border px-4 py-2">&lt;img src="../zurag.jpg"&gt;</td>
+      <td className="border px-4 py-2">&lt;img src=&quot;../zurag.jpg&quot;&gt;</td>
       <td className="border px-4 py-2">HTML файл байрлаж буй хавтастай зэрэгцэн zurag.jpg файл байрлаж байна</td>
     </tr>
   </tbody>
