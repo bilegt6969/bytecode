@@ -8,15 +8,15 @@ function Feed() {
       <h1 className="font-bold text-4xl mt-8 mb-4">HTML Colors</h1>
 <p>HTML-д өнгийг урьдчилан тодорхойлсон нэр эсвэл RGB, HEX, HSL, RGBA, HSLA -ийн утгуудыг ашиглан тодорхойлдог.</p>
 <h1 className='font-bold text-2xl mt-4'>Өнгийг нэрээр тодорхойлох</h1>
-<div className="items-center mt-4 rounded-2xl gap-5 text-center text-white   grid grid-cols-4">
-  <div className='bg-[#00FFFF] p-4 text-black'>Aqua</div>
-  <div className='bg-[#00FF00] p-4 text-black'>Lime</div>
-  <div className='bg-[#FF4500] p-4 text-black'>OrangeRed</div>
-  <div className='bg-[#FFFF00] p-4 text-black'>Yellow</div>
-  <div className='bg-[#4169E1] p-4 text-white'>RoyalBlue</div>
-  <div className='bg-[#800080] p-4 text-white'>Purple</div>
-   <div className='bg-[#FF00FF] p-4 text-black'>Magenta</div>
-   <div className='bg-[#708090] p-4 text-white'>SlateGrey</div>
+<div className='grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3'>
+  <div className='bg-[#00FFFF] p-4 text-black rounded-xl text-center'>Aqua</div>
+  <div className='bg-[#00FF00] p-4 text-black rounded-xl text-center'>Lime</div>
+  <div className='bg-[#FF4500] p-4 text-black rounded-xl text-center'>OrangeRed</div>
+  <div className='bg-[#FFFF00] p-4 text-black rounded-xl text-center'>Yellow</div>
+  <div className='bg-[#4169E1] p-4 text-white rounded-xl text-center'>RoyalBlue</div>
+  <div className='bg-[#800080] p-4 text-white rounded-xl text-center'>Purple</div>
+   <div className='bg-[#FF00FF] p-4 text-black rounded-xl text-center'>Magenta</div>
+   <div className='bg-[#708090] p-4 text-white rounded-xl text-center'>SlateGrey</div>
 
 </div>
       </section>

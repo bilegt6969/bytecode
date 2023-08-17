@@ -85,7 +85,7 @@ const Navbar = () => {
                             href="/cources/html/html-introduction"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
-                            Htmsl
+                            Html
                           </a>
                           <a
                             href="/cources/css/css-syntax"
@@ -196,7 +196,7 @@ const Navbar = () => {
                   Html
                 </a>
                 <a
-                  href="#"
+                  href="/cources/css/css-syntax"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   Css

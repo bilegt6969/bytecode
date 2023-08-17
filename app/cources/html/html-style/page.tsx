@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../../../Navbar'
 import React from 'react'
 import Feed from './Feed'
-import Sidebar from '../../../../components/dashbar'
+import Sidebar from '../../../../components/dashbar-html'
 import Bonav from '../../../BottomNavy'
 
 
