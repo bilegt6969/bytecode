@@ -51,10 +51,10 @@ function data() {
     <p className="mb-4 mt-4">border-color шинж чанарт хүрээний өнгийг тодорхойлж өгдөг</p>
     <p className="mb-4 mt-4">Өнгөний төрлүүд:</p>
     <ul>
-<li>name "red"</li>
-<li>HEX - "#ff0000"</li>
-<li>RGB - "rgb(255,0,0)"</li>
-<li>HSL - "hsl(0, 100%, 50%)"</li>
+<li>name &quot;red&quot;</li>
+<li>HEX - &quot;#ff0000&quot;</li>
+<li>RGB - &quot;rgb(255,0,0)&quot;</li>
+<li>HSL - &quot;hsl(0, 100%, 50%)&quot;</li>
 <li>transparent</li>
 </ul>
     <p className="mb-4 mt-4">Тэмдэглэл: Хэрэв хүрээний өнгийг зааж өгөөгүй бол элементийн өнгийг өвлөн авах болно.</p>

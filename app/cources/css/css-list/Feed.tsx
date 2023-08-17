@@ -28,7 +28,7 @@ function DataComponent() {
     <div dangerouslySetInnerHTML={{ __html: collectedData[1].Url }} />
     <h3 className="font-bold text-4xl mb-4 mt-8">Жишээ нь</h3>
     <h3 className="font-bold text-4xl mb-4 mt-8">Жагсаалтын item-н тэмдэглэгээний байрлал</h3>
-    <p className="mb-4 mt-4">list-style-position шинж чанарт жагсаалтын тэмдэглэгээний байлалыг зааж өгнө. "list-style-position: outside;" гэж зааж өгвөл тэмдэглэгээ нь жагсаалтын гадна талд байрлах бөгөөд энэ нь анхдагч утга нь юм. "list-style-position: inside;" гэж зааж өгвөл тэмдэглэгээ нь жагсаалтын дотор талд item-тай хамт байрлах болно.</p>
+    <p className="mb-4 mt-4">list-style-position шинж чанарт жагсаалтын тэмдэглэгээний байлалыг зааж өгнө. &quot;list-style-position: outside;&quot; гэж зааж өгвөл тэмдэглэгээ нь жагсаалтын гадна талд байрлах бөгөөд энэ нь анхдагч утга нь юм. &quot;list-style-position: inside;&quot; гэж зааж өгвөл тэмдэглэгээ нь жагсаалтын дотор талд item-тай хамт байрлах болно.</p>
     <div dangerouslySetInnerHTML={{ __html: collectedData[2].Url }} />
     <h3 className="font-bold text-4xl mb-4 mt-8">Жишээ нь</h3>
     <h3 className="font-bold text-4xl mb-4 mt-8">Анхны утгыг тэглэх /Remove Default Settings/</h3>

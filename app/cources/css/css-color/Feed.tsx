@@ -69,7 +69,7 @@ function data() {
 ></iframe>
     <h3 className="font-bold text-4xl mb-4 mt-8">Өнгөний утгууд</h3>
     <p className="mb-4 mt-4">HTML-д өнгө нь RGB, HEX, HSL, RGBA болон HSLA -н эдгээрийн утгыг ашигладаг.</p>
-    <p className="mb-4 mt-4">Жишээ нь "slateblue" өнгний хувьд авч үзвэл:</p>
+    <p className="mb-4 mt-4">Жишээ нь &quot;slateblue&quot; өнгний хувьд авч үзвэл:</p>
     <p className='mb-4 mt-4 bg-[#6a5acd] p-4 rounded-xl text-center'>rgb(106, 90, 205)</p>
     <p className='mb-4 mt-4 bg-[#6a5acd] p-4 rounded-xl text-center'>#6a5acd</p>
     <p className='mb-4 mt-4 bg-[#6a5acd] p-4 rounded-xl text-center'>hsl(248, 53%, 58%)</p>

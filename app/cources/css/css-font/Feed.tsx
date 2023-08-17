@@ -9,15 +9,15 @@ function data() {
     <p className="mb-4 mt-4">CSS font шинж чанарт үсгийн өргөн нарийн, хэв маяг фонтын төрлийг зааж өгдөг.</p>
     <h3 className="font-bold text-4xl mb-4 mt-8">CSS Font Families</h3>
     <p className="mb-4 mt-4">CSS-д Үсгийн фонтыг /font family/ хоёр төрөлд хувааж авч үздэг.</p>
-    <li className="mb-4 mt-4">generic family ижил төстэй хэсэг бүлэг ("Serif" болон "Monospace")</li>
-    <li className="mb-4 mt-4">font family тодорхой хэв маягтай хэсэг бүлэг ("Times New Roman" болон "Arial")</li>
+    <li className="mb-4 mt-4">generic family ижил төстэй хэсэг бүлэг (&quot;Serif&quot; болон &quot;Monospace&quot;)</li>
+    <li className="mb-4 mt-4">font family тодорхой хэв маягтай хэсэг бүлэг (&quot;Times New Roman&quot; болон &quot;Arial&quot;)</li>
 
     <p className="mb-4 mt-4">Тэмдэглэл: Компьютерын дэлгэцээс sans-serif фонтыг уншихад serif фонтуудаас илүү хялбар уншигддаг гэж үздэг.</p>
     <h3 className="font-bold text-4xl mb-4 mt-8">Font Family</h3>
     <li className="mb-4 mt-4"><code className='text-pink-500'>font-family</code>  шинж чанарт үсгийн фонтыг /font family/ зааж өгнө.</li>
-    <li className="mb-4 mt-4"><code className='text-pink-500'>font-family</code> шинж чанарт хэд хэдэн үсгийн фонтыг "fallback" буюу уналтын систем хэлбэрээр зааж өгдөг. Энэ нь хэрэв интернет хөтөч эхний фонтыг дэмжихгүй бол дараагийн фонтыг туршиж үзнэ гэсэн санаа юм.</li>
+    <li className="mb-4 mt-4"><code className='text-pink-500'>font-family</code> шинж чанарт хэд хэдэн үсгийн фонтыг &quot;fallback&quot; буюу уналтын систем хэлбэрээр зааж өгдөг. Энэ нь хэрэв интернет хөтөч эхний фонтыг дэмжихгүй бол дараагийн фонтыг туршиж үзнэ гэсэн санаа юм.</li>
     <li className="mb-4 mt-4"><code className='text-pink-500'>font-family</code> шинж чанарт таны зааж өгсөн font-г хөтөч алийг нь ч дэмжихгүй тохиолдолд хөтчийн санал болгосон font-г автоматаар ашиглана.</li>
-    <li className="mb-4 mt-4">Хэрэв font-н нэр нь нэгээс олон үгтэй байвал "Times New Roman" хаалтад гэж бичээд олон font-г таслалаар тусгаарлан зааж өгнө.</li>
+    <li className="mb-4 mt-4">Хэрэв font-н нэр нь нэгээс олон үгтэй байвал &quot;Times New Roman&quot; хаалтад гэж бичээд олон font-г таслалаар тусгаарлан зааж өгнө.</li>
     <h3 className="font-bold text-4xl mb-4 mt-8">Жишээ:</h3>
 
 
@@ -101,7 +101,7 @@ function data() {
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
     <h3 className="font-bold text-4xl mb-4 mt-8">Responsive Font Size</h3>
-    <p className="mb-4 mt-4">Текстийн хэмжээг vw-р тохируулж болно, энэ нь "viewport width" буюу харах талбайн өргөн гэсэн үг юм, Ингэсэнээр текстийн хэмжээ нь интернет хөтчийн цонхны хэмжээг том болгоход нь том болж жижиг болгоход нь жижиг болон дагаж мөрдөх болно.</p>
+    <p className="mb-4 mt-4">Текстийн хэмжээг vw-р тохируулж болно, энэ нь &quot;viewport width&quot; буюу харах талбайн өргөн гэсэн үг юм, Ингэсэнээр текстийн хэмжээ нь интернет хөтчийн цонхны хэмжээг том болгоход нь том болж жижиг болгоход нь жижиг болон дагаж мөрдөх болно.</p>
     <h3 className="font-bold text-4xl mb-4 mt-8">Жишээ:</h3>
     <iframe 
     src="https://codesandbox.io/embed/dark-dust-zy7fvs?file=/index.html?fontsize=14&hidenavigation=1&theme=dark&editorsize=50"

@@ -53,7 +53,7 @@ function data() {
     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-    <p className="mb-4 mt-4">Гадаад CSS-г дурын текст editor дээр хөгжүүлж болох бөгөөд ямар нэгэн HTML код агуулдаггүй мөн .css өргөтгөлтэй хадгалагддаг болохыг дээрх жишээнээс /href="/static/csss/style.css"/ анзаарсан биз ээ.</p>
+    <p className="mb-4 mt-4">Гадаад CSS-г дурын текст editor дээр хөгжүүлж болох бөгөөд ямар нэгэн HTML код агуулдаггүй мөн .css өргөтгөлтэй хадгалагддаг болохыг дээрх жишээнээс /href=&quot;/static/csss/style.css&quot;/ анзаарсан биз ээ.</p>
     <div>
       <CopyBlock
         text={codeText}
