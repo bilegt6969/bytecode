@@ -2,7 +2,7 @@ import React from 'react';
 import {  CopyBlock, dracula} from 'react-code-blocks';
 
 
-function data() {
+function Feed() {
   const codeText = `
   <style>
 /* нэг мөр тайлбар оруулсан байна */
@@ -68,4 +68,4 @@ p {
   );
 }
 
-export default data;
+export default Feed;

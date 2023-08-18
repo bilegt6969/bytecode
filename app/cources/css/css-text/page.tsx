@@ -1,6 +1,6 @@
 import React from 'react'
 import Feed from './Feed'
-import Sidebar from '../../../../components/dashbar-html'
+import Sidebar from '../../../../components/dashbar-css'
 import Bonav from '../../../BottomNavy-css'
 
 

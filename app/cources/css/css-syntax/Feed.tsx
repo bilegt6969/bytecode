@@ -1,5 +1,6 @@
 import { ExclamationCircleIcon } from '@heroicons/react/24/solid';
 import React from 'react';
+import Image from 'next/image';
 
 function Feed() {
   return (
@@ -7,7 +8,7 @@ function Feed() {
       <section>
       <h1 className="font-bold text-4xl mt-8 mb-4">CSS Бичиглэл /Syntax/</h1>
       <p>CSS-н бичиглэлийн дүрэм нь Selector буюу Сонгогч, Declaration буюу тунхаг гэсэн хоёр блокоос бүрдэнэ.</p>
-      <img className='rounded-xl' src="http://www.abcd.mn/static/csss/CSS-Syntax.jpg" alt="" />
+      <Image className='rounded-xl' src="http://www.abcd.mn/static/csss/CSS-Syntax.jpg" alt="" />
       <p>HTML элементийн загвар буюу Style-г өөрчлөх үед Selector-т зааж өгдөг.</p>
       <p>Declaration буюу Тунхаглалын хэсэгт нэг буюу түүнээс олон тунхаглалыг цэг таслалаар тусгаарлан шинж чанарт утгыг зааж өгдөг.</p>
       <p>CSS-д Declaration буюу Тунхаглал нь үргэлж цэг таслалаар төгсдөг бөгөөд суман хаалтад бичдэг {}.xj</p>
