@@ -35,12 +35,6 @@ return (
       <a href='../html/html-filePath' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML File Paths</a>
       <a href='../html/html-head' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Head</a>
       <a href='../html/html-layout' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Layout</a>
-      <a href='../html/html-responsive' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Responsive</a>
-      <a href='../html/html-semantic' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Semantic</a>
-      <a href='../html/html-forms' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Forms</a>
-      <a href='../html/html-form' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML form </a>
-      <a href='../html/html-inputType' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Input Type</a>
-      <a href='../html/html-submitButton' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Submit Button</a>
     </div>
     
   </div>

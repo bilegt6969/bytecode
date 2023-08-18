@@ -9,7 +9,7 @@ import Bonav from '../../../BottomNavy'
 function page() {
   return (
     <div>
-                <Bonav/>
+        <Bonav/>
         <main className='grid grid-cols-5 gap-x-4'>
         <Sidebar/>
         <Feed/>

@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Fragment>
-              <a href="./">
+              <a href="../../">
                 <Image src={Logo} alt="Logo" className="w-[180px] h-auto mt-[-8.3rem] mx-2" />
               </a>
             </Fragment>

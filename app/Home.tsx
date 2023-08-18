@@ -1,17 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import img from '../img/img.svg'
-import { Application } from '@splinetool/runtime';
 import bg from '../img/bg.jpg'
-import Link from 'next/link';
 
 
 function Home() {
   const redirectToHTML = () => {
-    window.location.href = '/html-introduction';
+    window.location.href = 'cources/html/html-introduction';
   };
   const redirectToCSS = () => {
-    window.location.href = '/css-introduction';
+    window.location.href = 'cources/html/css-syntax';
   };
   const redirectToJS = () => {
     window.location.href = '/javascript-introduction';
@@ -34,7 +31,7 @@ function Home() {
       <header className="text-center mt-[0rem]" >
         <Image layout='fill' objectFit='cover' className='z-[-3] absolute rounded-[3rem] mt-[4rem]' src={bg} alt='bg'/>
       <h2 className=" lg:max-w-none md:max-w-[40rem] sm:max-w-[40rem] lg:text-8xl md:text-8xl sm:text-6xl text-6xl font-bold font-sans lg:mt-[20rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem]  mb-4 bg-clip-text text-white">Shape your future with us</h2>
-      <h2 className="text-2xl font-sans mt-8  mb-4 bg-clip-text text-gray-200 lg:max-w-[40rem] md:max-w-[40rem] sm:max-w-[40rem] mx-auto">
+      <h2 className="text-2xl font-sans mt-8  mb-4 bg-clip-text text-gray-200 lg:max-w-[40rem] md:max-w-[40rem] sm:max-w-[40rem] max-w-[30rem] mx-auto">
 Learn coding and programming for free. Join our platform and unlock endless opportunities without any cost.</h2>
 
       </header>

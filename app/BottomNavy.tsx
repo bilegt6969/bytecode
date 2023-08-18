@@ -165,42 +165,10 @@ function Bottomnav() {
               >
                 HTML Layout
               </a>
-              <a
-                href="../html/html-responsive"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Responsive
-              </a>
-              <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Semantic
-              </a>
-              <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Forms
-              </a>
-              <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML form
-              </a>
-              <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Input Type
-              </a>
-              <a
-                href="../html-"
-              className="block text-lg font-medium mb-4 hover:underline"
-              >
-                HTML Submit Button
-              </a>          </div>
+             
+         
+              
+                        </div>
         </div>
       )}
     </div>

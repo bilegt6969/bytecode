@@ -2,7 +2,6 @@
 import Head from 'next/head'
 import React from 'react'
 import Home from '../app/Home'
-import { useRouter } from 'next/router';
 
 
 function page() {
@@ -12,7 +11,6 @@ function page() {
   {/* Other meta tags and stylesheets */}
   <link rel="icon" href="/favicon.ico" />
 </Head>
-      <Head><title>Code.gg</title></Head>
       <Home/>
       
     </div>
