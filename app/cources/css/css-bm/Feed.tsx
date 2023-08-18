@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function data() {
   return (
@@ -7,7 +8,7 @@ function data() {
     <p className="mb-4 mt-4"></p>
     <p className="mb-4 mt-4"></p>
     <p className="mb-4 mt-4">Бүх HTML элементийг хайрцаг буюу box хэлбэртэй гэж үздэг. CSS-д загвар зохион байгуулалт буюу Design and Layout гэсэн ойлголтыг box model гэдэг.Box model нь margins, borders, padding, болон content бүтэцтэй байдаг бүтэцтэй байдаг. Доорх зурган дээрээс харна уу.</p>
-    <img className='rounded-xl' src="https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" alt="" />
+    <Image className='rounded-xl' src="https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" alt="" />
     <ul>
 <li><strong>Content</strong> - Текст, зураг гарчиг гэх мэт мэдээллийг агуулна</li>
 <li><strong>Padding</strong> - Content-с хүрээ хүртэл авах зай</li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function data() {
   return (
@@ -9,7 +10,7 @@ function data() {
     <p className="mb-4 mt-4 text-center outline outline-[10px] bg-white outline-sky-500 text-black border-red-500 border-4 p-4">Тус элементэд 2px өргөн мүжбуж, 10px өргөн outline зураас авлаа.</p>
     <h3 className="font-bold text-4xl mb-4 mt-8">CSS Outline</h3>
     <p className="mb-4 mt-4">Outline гэдэг нь чухал гэж үзсэн элементийн хүрээний гадна талаар тойрсон шугам юм.</p>
-    <img className='rounded-xl' src="https://tutorials.freshersnow.com/wp-content/uploads/2020/02/CSS-Outliners-2.png" alt="" />
+    <Image className='rounded-xl' src="https://tutorials.freshersnow.com/wp-content/uploads/2020/02/CSS-Outliners-2.png" alt="" />
     <p className="mb-4 mt-4">Outline нь дараах шинж чанаруудтай байдаг.</p>
     <li><code className='text-pink-500'>outline</code></li>
 <li><code className='text-pink-500'>outline-style</code></li>

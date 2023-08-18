@@ -15,7 +15,7 @@ function DataComponent() {
     <h3 className="font-bold text-4xl mb-4 mt-8">Жишээ нь</h3>
     <div dangerouslySetInnerHTML={{ __html: collectedData[0].Url }} />
     <h3 className="font-bold text-4xl mb-4 mt-8">CSS [атрибут=&quot;утга&quot;] сонгогч</h3>
-    <p className="mb-4 mt-4">    <code className="mb-4 mt-4"><code className="text-pink-500">[атрибут="утга"] </code></code>
+    <p className="mb-4 mt-4">    <code className="mb-4 mt-4"><code className="text-pink-500">[атрибут=&quot;утга&quot;] </code></code>
  сонгогч нь тодорхой шинж чанар, утгатай элементийг сонгоход ашигладаг.Дараах жишээ нь бүх <span className="text-pink-500">&lt;a&gt;</span> элементээс target шинж чанарыг агуулсан элементийг сонгох болно.</p>
  <h3 className="font-bold text-4xl mb-4 mt-8">Жишээ нь</h3>
     <div dangerouslySetInnerHTML={{ __html: collectedData[1].Url }} />
