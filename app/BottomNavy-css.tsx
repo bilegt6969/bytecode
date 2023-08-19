@@ -17,7 +17,7 @@ function Bottomnav() {
   };
 
   return (
-    <div className='md:hidden z-[2] sticky top-[65px] w-full border-b border-[#454444]'>
+    <div className='md:hidden z-[4] sticky top-[65px] w-full border-b border-[#454444]'>
       <div className='z-[2] sticky top-[66px] w-full'>
       <div className="md:hidden">
       <div className="">
@@ -28,11 +28,11 @@ function Bottomnav() {
           className="p-1 text-white  hover:text-white focus:outline-none"
         >
           {isOpen1 ? (
-            <div className='flex items-center gap-1'>
+            <div className='flex items-center gap-0'>
             <ChevronDownIcon className="h-3 w-3" aria-hidden="true" />
             <span>Menu</span>
             </div>          ) : (
-            <div className='flex items-center gap-1'>
+            <div className='flex items-center gap-0'>
             <ChevronRightIcon className="h-3 w-3" aria-hidden="true" />
             <span>Menu</span>
 
@@ -42,7 +42,7 @@ function Bottomnav() {
       </div>
 
       {isOpen1 && (
-        <div className="mb-10 top-0 overflow-hidden md:overflow-auto overflow-y-scroll left-0 w-screen h-screen bg-gray-900 bg-opacity-50 backdrop-blur-md ">
+        <div className="mb-[40rem] top-0 overflow-hidden md:overflow-auto overflow-y-scroll left-0 w-screen h-screen bg-gray-900 bg-opacity-50 backdrop-blur-md ">
           <div className="p-4 text-gray-100">
             <a
                 href="../css/css-syntax"
@@ -212,6 +212,16 @@ function Bottomnav() {
               className="block text-lg font-medium mb-4 hover:underline"
               >
                 CSS attributes
+              </a> 
+              <a
+                href=""
+              className="block text-lg font-medium mb-[10rem] hover:underline"
+              >
+              </a> 
+              <a
+                href=""
+              className="block text-lg font-medium mb-4 hover:underline"
+              >
               </a>  
                 </div>
         </div>

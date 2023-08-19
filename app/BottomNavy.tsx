@@ -165,6 +165,15 @@ function Bottomnav() {
               >
                 HTML Layout
               </a>
+              <a
+                href=""
+              className="block text-lg font-medium mb-[10rem] hover:underline"
+              >
+              </a> 
+              <a
+                href=""
+              className="block text-lg font-medium mb-4 hover:underline"
+              ></a>
              
          
               
