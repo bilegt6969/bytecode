@@ -94,25 +94,25 @@ const Navbar = () => {
                             Css
                           </a>
                           <a
-                            href="#"
+                            href="/cources/javascript/js-home"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
                             JavaScript
                           </a>
                           <a
-                            href="#"
+                            href="/cources/python/python-home"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
                             Python
                           </a>
                           <a
-                            href="#"
+                            href="/cources/cpp/cpp-home"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
                             C++
                           </a>
                           <a
-                            href="#"
+                            href="/cources/csharp/csharp-home"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
                             C#
@@ -202,25 +202,25 @@ const Navbar = () => {
                   Css
                 </a>
                 <a
-                  href="#"
+                  href="/cources/javascript/js-home"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   JavaScript
                 </a>
                 <a
-                  href="#"
+                  href="/cources/python/python-home"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   Python
                 </a>
                 <a
-                  href="#"
+                  href="/cources/cpp/cpp-home"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   C++
                 </a>
                 <a
-                  href="#"
+                  href="/cources/csharp/csharp-home"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   C#
