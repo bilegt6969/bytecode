@@ -8,7 +8,7 @@ function Home() {
     window.location.href = 'cources/html/html-introduction';
   };
   const redirectToCSS = () => {
-    window.location.href = 'cources/html/css-syntax';
+    window.location.href = 'cources/css/css-syntax';
   };
   const redirectToJS = () => {
     window.location.href = '/javascript-introduction';
