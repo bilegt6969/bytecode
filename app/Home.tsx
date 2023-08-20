@@ -11,16 +11,16 @@ function Home() {
     window.location.href = 'cources/css/css-syntax';
   };
   const redirectToJS = () => {
-    window.location.href = '/javascript-introduction';
+    window.location.href = 'cources/javascript/js-home';
   };
   const redirectToPY = () => {
-    window.location.href = '/python-introduction';
+    window.location.href = 'cources/python/python-home';
   };
   const redirectToCpp = () => {
-    window.location.href = '/cpp-introduction';
+    window.location.href = 'cources/cpp/cpp-home';
   };
   const redirectToCsharp = () => {
-    window.location.href = '/csharp-introduction';
+    window.location.href = 'cources/csharp/csharp-home';
   };
 
 
