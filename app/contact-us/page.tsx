@@ -1,11 +1,22 @@
 "use client"
+import React from "react";
+
 import { useState } from "react";
-import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
+import bg from '../../img/bg.jpg'
+import styled from 'styled-components';
+
 
 
 
 export default function ContactForm() {
+
+  const StyledElement = styled.div`
+  font-family: 'Play', 'Red Hat Display', sans-serif;
+  /* Rest of your styling */
+`;
+
   const [fullname, setFullname] = useState("");
+  const [fullname1, setFull1name] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [error, setError] = useState([]);
@@ -42,61 +53,65 @@ export default function ContactForm() {
   };
 
   return (
-  <div>
+    
+  <div className="text-white mb-[8rem]">
     <div className="max-w-[30rem] mx-auto rounded-xl text-center mt-[5rem]">
-    <h1 className="text-3xl font-bold mb-4">Холбоо Барих</h1>
-      <div className="flex">
-    <div className="flex-col">
-    <PhoneIcon className="w-10 mx-auto"/>
-    <h1 className="text-white">Phone</h1>
-    <h1 className="text-gray-500">(+976)90195589</h1>
-    </div>
-    <div className="">
-    <EnvelopeIcon className="w-10 mx-auto"/>
-    <h1 className="text-white">Mail</h1>
-    <h1 className="text-gray-500">bilegt6969@gmail.com</h1>
-    </div></div>
+    <h1 className="text-5xl font-bold mb-[8rem]">Холбоо Барих</h1>
+
     
 
     </div>
-    <div className="max-w-[30rem] bg-white mx-auto rounded-xl p-4">
+    <div className=" max-w-[90rem] bg-gradient-to-tr from-indigo-500 via-purple-500 to-pink-500 mx-auto rounded-3xl lg:px-[15rem] lg:py-[4rem] md:px-[8rem] md:py-[4rem] sm:px-[3rem] sm:py-[4rem] px-[1rem] py-[4rem]">
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col">
-          <label htmlFor="fullname" className="text-gray-600 text-sm">
-            Full Name
-          </label>
+        
+        <h1 className="font-sans font-bold text-4xl  ">If you&apos;re ready to start, get in touch with us! 👇</h1>
+        <p className="font-sans mb-[5rem]">We&apos;ll get in touch within 24hours.</p>
+
+        
+        
+
+          <div className="flex gap-[2rem]">
           <input
-            className="w-full text-black p-2 border rounded focus:ring-2 focus:ring-indigo-500"
+            className="w-full text-black p-2 border rounded-xl focus:ring-2 focus:ring-indigo-500"
             onChange={(e) => setFullname(e.target.value)}
             value={fullname}
             type="text"
             id="fullname"
-            placeholder="John Doe"
+            placeholder="First Name"
           />
-        </div>
-
-        <div className="flex flex-col">
-          <label htmlFor="email" className="text-gray-600 text-sm">
-            Email
-          </label>
           <input
-            className="w-full text-black p-2 border rounded focus:ring-2 focus:ring-indigo-500"
+            className="w-full text-black p-2 border rounded-xl focus:ring-2 focus:ring-indigo-500"
+            onChange={(e) => setFull1name(e.target.value)}
+            value={fullname1}
+            type="text"
+            id="fullname1"
+            placeholder="Last Name"
+          />
+
+          <input
+            className="w-full  p-2 border rounded-xl focus:ring-2 focus:ring-indigo-500"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
             type="text"
             id="email"
-            placeholder="john@gmail.com"
+            placeholder="Email"
           />
+          </div>
+          
         </div>
 
+
+
+
+
+
+
         <div>
-          <label htmlFor="message" className="text-gray-600 text-sm">
-            Your Message
-          </label>
           <textarea
             onChange={(e) => setMessage(e.target.value)}
             value={message}
-            className="w-full h-auto bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full placeholder-gray-200 text-white h-[10rem] bg-white/10 backdrop-blur-xl   rounded-xl border border-none focus:border-indigo-500 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
 
             id="message"
             placeholder="Type your message here..."
@@ -104,20 +119,20 @@ export default function ContactForm() {
         </div>
 
         <button
-          className="bg-green-700 text-white font-bold py-2 px-4 rounded cursor-pointer"
+          className="bg-white text-black font-bold py-2 px-4 rounded-full cursor-pointer"
           type="submit"
         >
           Send
         </button>
       </form>
 
-      <div className="bg-red-500 mt-4 p-2 rounded">
+      <div className=" mt-4 p-2 rounded">
         {error &&
           error.map((e, index) => (
             <div
               key={index}
               className={`${
-                success ? "text-green-800" : "text-red-600"
+                success ? "bg-green-800 rounded-xl p-4" : "bg-red-600 rounded-xl p-4"
               } px-2 py-1`}
             >
               {e}
