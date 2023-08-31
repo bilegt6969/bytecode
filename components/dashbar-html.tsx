@@ -13,7 +13,7 @@ return (
   <div className={roboto.className}>
     <h1 className="text-lg font-bold mb-4 text-white">HTML tutorial</h1>
     <div className="pl-4 text-[#9ba1a6] cursor-pointer flex flex-col space-y-3">
-      <a href="../cources/html/html-introduction" className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Introduction</a>
+      <a href="../html/html-introduction" className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Introduction</a>
       <a href='../html/html-editor' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Editor</a>
       <a href='../html/html-basic' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Үндсэн ойлголт</a>
       <a href='../html/html-element' className="hover:text-gray-100 transition duration-100 ease-in-out">HTML Element</a>

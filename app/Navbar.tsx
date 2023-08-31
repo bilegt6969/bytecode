@@ -94,7 +94,7 @@ const Navbar = () => {
                             Css
                           </a>
                           <a
-                            href="/cources/javascript/js-home"
+                            href="/cources/javascript/js-introduction"
                             className="block px-4 py-2 text-sm text-gray-700 font-medium hover:bg-yellow-500 rounded-md"
                           >
                             JavaScript
@@ -124,7 +124,7 @@ const Navbar = () => {
                 )}
               </Popover>
               <a
-                href="#"
+                href="/contact-us"
                 className="text-gray-200 hover:text-gray-400 transition px-3 py-2 whitespace-nowrap rounded-md text-sm font-medium"
               >
                 Холбоо барих
@@ -202,7 +202,7 @@ const Navbar = () => {
                   Css
                 </a>
                 <a
-                  href="/cources/javascript/js-home"
+                  href="/cources/javascript/js-introduction"
                   className="block px-4 py-2 text-2xl text-white font-medium hover:bg-yellow-500 rounded-md"
                 >
                   JavaScript
@@ -228,7 +228,7 @@ const Navbar = () => {
               </div>
             )}
             <a
-              href="#"
+              href="/contact-us"
               className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-3xl font-medium"
             >
               Холбоо барих

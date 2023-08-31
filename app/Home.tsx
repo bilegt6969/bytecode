@@ -11,7 +11,7 @@ function Home() {
     window.location.href = 'cources/css/css-syntax';
   };
   const redirectToJS = () => {
-    window.location.href = 'cources/javascript/js-home';
+    window.location.href = 'cources/javascript/js-introduction';
   };
   const redirectToPY = () => {
     window.location.href = 'cources/python/python-home';
