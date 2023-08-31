@@ -90,7 +90,7 @@ export default function ContactForm() {
           />
 
           <input
-            className="w-full  p-2 border rounded-xl focus:ring-2 focus:ring-indigo-500"
+            className="w-full text-black  p-2 border rounded-xl focus:ring-2 focus:ring-indigo-500"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
             type="text"
@@ -111,7 +111,7 @@ export default function ContactForm() {
           <textarea
             onChange={(e) => setMessage(e.target.value)}
             value={message}
-            className="w-full placeholder-gray-200 text-white h-[10rem] bg-white/10 backdrop-blur-xl   rounded-xl border border-none focus:border-indigo-500 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            className="w-full text-white placeholder-gray-200  h-[10rem] bg-white/10 backdrop-blur-xl   rounded-xl border border-none focus:border-indigo-500 text-base outline-none py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
 
             id="message"
             placeholder="Type your message here..."
