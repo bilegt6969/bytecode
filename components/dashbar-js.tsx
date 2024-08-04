@@ -25,7 +25,7 @@ return (
       <a href='../javascript/js-objects'className="hover:text-gray-100 transition duration-100 ease-in-out">JS Objects</a>
       <a href='../javascript/js-strings' className="hover:text-gray-100 transition duration-100 ease-in-out">JS Strings</a>
       <a href='../javascript/js-stringmethods' className="hover:text-gray-100 transition duration-100 ease-in-out">JS String Methods</a>
-      <a href='../javascript/js-numbers' className="hover:text-gray-100 transition duration-100 ease-in-out">JS Numbers</a>
+      <a href='../javascript/js-number' className="hover:text-gray-100 transition duration-100 ease-in-out">JS Numbers</a>
       <a href='../javascript/js-numbermethods' className="hover:text-gray-100 transition duration-100 ease-in-out">JS Number methods</a>
       <a href='../javascript/js-array' className="hover:text-gray-100 transition duration-100 ease-in-out">JS Array</a>
       <a href='../javascript/js-sort' className="hover:text-gray-100 transition duration-100 ease-in-out">JS Sort</a>

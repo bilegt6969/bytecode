@@ -1,5 +1,6 @@
 'use client'
 import React from 'react';
+
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Bars2Icon, XMarkIcon, ChevronDownIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
@@ -9,6 +10,7 @@ import { Popover, Transition } from '@headlessui/react';
 import Image from 'next/image';
 
 const Navbar = () => {
+
 
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmenuOpen, setIsSubmenuOpen] = useState(false);
@@ -252,3 +254,7 @@ const Navbar = () => {
 };
 
 export default Navbar;
+function useMediaQuery(arg0: { minWidth: number; }) {
+  throw new Error('Function not implemented.');
+}
+

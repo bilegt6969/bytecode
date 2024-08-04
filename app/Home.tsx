@@ -1,6 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import bg from '../img/bg.jpg'
+import {WobbleCardDemo} from '../components/ui/card/Card1'
+import {AppleCardsCarouselDemo} from '../components/ui/carousel/CarouselReal'
+import {FlipWordsDemo} from '../components/ui/flip/filp'
+import {CardSpotlightDemo} from '../components/ui/SpotCard/spotcards'
+
+
 
 
 function Home() {
@@ -29,24 +34,36 @@ function Home() {
   return (
     <div className="text-white flex flex-col justify-center items-center">
       <header className="text-center mt-[0rem]" >
-        <Image layout='fill' objectFit='cover' className='z-[-3] absolute rounded-[3rem] mt-[4rem]' src={bg} alt='bg'/>
-      <h2 className=" lg:max-w-none md:max-w-[40rem] sm:max-w-[40rem] lg:text-8xl md:text-8xl sm:text-6xl text-6xl font-bold font-sans lg:mt-[20rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem]  mb-4 bg-clip-text text-white">Shape your future with us</h2>
-      <h2 className="text-2xl font-sans mt-8  mb-4 bg-clip-text text-gray-200 lg:max-w-[40rem] md:max-w-[40rem] sm:max-w-[40rem] max-w-[30rem] mx-auto">
-Learn coding and programming for free. Join our platform and unlock endless opportunities without any cost.</h2>
-
+      <Image layout='fill' objectFit='cover' className='z-[-3] brightness-50	 absolute rounded-[3rem] mt-[4rem]' src='/bg.jpg' alt='bg'/>
+      <h2 className="lg:max-w-none md:max-w-[40rem] sm:max-w-[40rem] md:text-8xl sm:text-6xl text-7xl font-bold lg:mt-[5rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem] text-left">
+        <FlipWordsDemo/>
+</h2>
+      <h2 className="text-2xl mt-[-10rem] mb-4 bg-clip-text text-gray-200 lg:max-w-[40rem] md:max-w-[40rem] sm:max-w-[40rem] max-w-[30rem] mx-auto">
+      Монгол хүсэл эрмэлзлийг цогцлоох платформ.</h2>
       </header>
-
-
-
-    
-
-
       
-      
-      <section className="lg:mt-[40rem] md:mt-[30rem] sm:mt-[28rem] mt-[25rem]">
+      <section className="lg:mt-[30rem] md:mt-[30rem] sm:mt-[28rem] mt-[20rem]">
+      <WobbleCardDemo/>
+      </section>
+      <section className="lg:mt-[5rem] md:mt-[30rem] sm:mt-[28rem] mt-[20rem]">
+      <h1 className="lg:text-5xl text-3xl lg:text-left md:text-left sm:text-center text-left text-white mb-[6rem] font-sans">
+      Яагаад bytecode гэж?
+      </h1>
+      <p>
+
+      </p>
+      <CardSpotlightDemo/>
+      </section>
+      <section className="lg:mt-[0rem] md:mt-[30rem] sm:mt-[28rem] mt-[20rem]">
+      <AppleCardsCarouselDemo/>
+      </section>
+
+
+
+      <section className="lg:mt-[10rem] md:mt-[30rem] sm:mt-[28rem] mt-[25rem] mx-[2rem]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-[10rem]">
-            <h1 className="text-5xl lg:text-left md:text-left sm:text-center text-center font-bold text-white mb-[6rem] font-sans">
-              we&apos;re offering
+            <h1 className="lg:text-5xl text-3xl lg:text-left md:text-left sm:text-center text-left font-bold text-white mb-[6rem] font-sans">
+              we&apos;re offering:
             </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 mx-auto items-center justify-center lg:grid-cols-3 gap-6 xl:gap-10">
           

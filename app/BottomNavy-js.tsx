@@ -59,7 +59,7 @@ function Bottomnav() {
       <a href='../javascript/js-function'className="block text-lg font-medium mb-4 hover:underline">JS Function</a>
       <a href='../javascript/js-strings' className="block text-lg font-medium mb-4 hover:underline">JS Strings</a>
       <a href='../javascript/js-stringmethods' className="block text-lg font-medium mb-4 hover:underline">JS String Methods</a>
-      <a href='../javascript/js-numbers' className="block text-lg font-medium mb-4 hover:underline">JS Numbers</a>
+      <a href='../javascript/js-number' className="block text-lg font-medium mb-4 hover:underline">JS Number</a>
       <a href='../javascript/js-numbermethods' className="block text-lg font-medium mb-4 hover:underline">JS Number methods</a>
       <a href='../javascript/js-array' className="block text-lg font-medium mb-4 hover:underline">JS Array</a>
       <a href='../javascript/js-sort' className="block text-lg font-medium mb-4 hover:underline">JS Sort</a>
