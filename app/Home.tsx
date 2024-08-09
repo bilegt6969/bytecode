@@ -33,9 +33,9 @@ function Home() {
 
   return (
     <div className="text-white flex flex-col justify-center items-center">
-      <header className="text-center mt-[0rem]" >
+      <header className="text-center lg:mt-[0rem] mt-[-12rem]" >
       <Image layout='fill' objectFit='cover' className='z-[-3] brightness-50	 absolute rounded-[3rem] mt-[4rem]' src='/bg.jpg' alt='bg'/>
-      <h2 className="lg:max-w-none md:max-w-[40rem] sm:max-w-[40rem] md:text-8xl sm:text-6xl text-7xl font-bold lg:mt-[5rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem] text-left">
+      <h2 className="lg:max-w-none md:max-w-[40rem] sm:max-w-[40rem] md:text-7xl sm:text-5xl lg:text-7xl lg:mt-[5rem] md:mt-[15rem] sm:mt-[18rem] mt-[18rem] lg:text-left">
         <FlipWordsDemo/>
 </h2>
       <h2 className="text-2xl mt-[-10rem] mb-4 bg-clip-text text-gray-200 lg:max-w-[40rem] md:max-w-[40rem] sm:max-w-[40rem] max-w-[30rem] mx-auto">
@@ -45,16 +45,13 @@ function Home() {
       <section className="lg:mt-[30rem] md:mt-[30rem] sm:mt-[28rem] mt-[20rem]">
       <WobbleCardDemo/>
       </section>
-      <section className="lg:mt-[5rem] md:mt-[30rem] sm:mt-[28rem] mt-[20rem]">
-      <h1 className="lg:text-5xl text-3xl lg:text-left md:text-left sm:text-center text-left text-white mb-[6rem] font-sans">
-      Яагаад bytecode гэж?
-      </h1>
+      <section className="lg:mt-[5rem] md:mt-[30rem] sm:mt-[28rem] mt-[10rem]">
+      
       <p>
 
       </p>
-      <CardSpotlightDemo/>
       </section>
-      <section className="lg:mt-[0rem] md:mt-[30rem] sm:mt-[28rem] mt-[20rem]">
+      <section className="lg:mt-[0rem] md:mt-[30rem] sm:mt-[28rem] mt-[0rem]">
       <AppleCardsCarouselDemo/>
       </section>
 

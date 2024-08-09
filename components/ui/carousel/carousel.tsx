@@ -93,19 +93,19 @@ export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
     >
       <div className="relative w-full">
         <div
-          className="flex w-full overflow-x-scroll overscroll-x-auto py-10 md:py-20 scroll-smooth [scrollbar-width:none]"
+          className="flex w-full overflow-x-scroll overflow-hidden py-10 md:py-20 scroll-smooth [scrollbar-width:none]"
           ref={carouselRef}
           onScroll={checkScrollability}
         >
           <div
             className={cn(
-              "absolute right-0  z-[1000] h-auto  w-[5%] overflow-hidden bg-gradient-to-l"
+              "absolute right-0  z-[1000] h-auto  w-[5%] bg-gradient-to-l"
             )}
           ></div>
 
           <div
             className={cn(
-              "flex flex-row justify-start gap-4 pl-4",
+              "flex flex-row justify-start gap-4",
               "max-w-7xl mx-auto" // remove max-w-4xl if you want the carousel to span the full width of its container
             )}
           >
@@ -166,6 +166,10 @@ export const Card = ({
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const { onCardClose, currentIndex } = useContext(CarouselContext);
+  const handleClose = () => {
+    setOpen(false);
+    onCardClose(index);
+  };
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -173,16 +177,17 @@ export const Card = ({
         handleClose();
       }
     }
-
+  
     if (open) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
     }
-
+  
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [open]);
+  }, [open, handleClose]);
+  
 
   useOutsideClick(containerRef, () => handleClose());
 
@@ -190,10 +195,7 @@ export const Card = ({
     setOpen(true);
   };
 
-  const handleClose = () => {
-    setOpen(false);
-    onCardClose(index);
-  };
+
 
   return (
     <>

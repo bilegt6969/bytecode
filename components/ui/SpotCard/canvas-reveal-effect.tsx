@@ -271,15 +271,16 @@ const ShaderMaterial = ({
       }
       `,
       fragmentShader: source,
-      uniforms: getUniforms(),
+      uniforms: getUniforms(), // Use getUniforms here
       glslVersion: THREE.GLSL3,
       blending: THREE.CustomBlending,
       blendSrc: THREE.SrcAlphaFactor,
       blendDst: THREE.OneFactor,
     });
-
+  
     return materialObject;
-  }, [size.width, size.height, source]);
+  }, [size.width, size.height, source, getUniforms]); // Include getUniforms in the dependency array
+  
 
   return (
     <mesh ref={ref as any}>
